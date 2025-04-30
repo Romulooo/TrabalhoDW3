@@ -1,2 +1,2 @@
-GET http://localhost:5000/consultarnome/Minecraft
+GET http://localhost:5/consultarnome/Minecraft
 Content-Type: application/json
