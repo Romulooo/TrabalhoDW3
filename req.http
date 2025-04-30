@@ -1,2 +1,2 @@
-GET http://localhost:5/consultarnome/Minecraft
+GET http://127.0.0.1:5000/consultarnome/Scooby Doo
 Content-Type: application/json
