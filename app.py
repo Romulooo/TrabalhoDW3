@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 
 # Armazena a conexão em uma variável, com ela já sendo excecutada
-connection_db = psycopg.connect('dbname=nerdgeeks user=postgres password=3f@db host=164.90.152.205 port=80')
+connection_db = psycopg.connect('dbname=nerdgeeks user=postgres password= host=164.90.152.205 port=80')
 
 # Definição da rota consultar nome por título ou id
 @app.route("/consultarnome/<title>", methods=["GET"])
