@@ -4,7 +4,7 @@
 A aplicação possui um endpoint que faz a consulta de filmes e séries por meio da API pública OMDb e do banco de dados PostgreSQl. O método GET é utilizado para fazer a busca por id ou título e a aplicação verifica se o valor correspondente existe na tabela respectiva, se não existir, uma requisição é feita a API OMDb para obter e armazenar as informações.
 
 ## Inicializar API
-Para inicializar a API, utilizam-se os seguintes códigos:
+Para inicializar a API, utilizam-se os seguintes códigos (depois de inserir os dados sensíveis):
 
 ```bash
 py -m venv .venv
