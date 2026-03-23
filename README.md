@@ -1,6 +1,7 @@
-# Trabalho DW
+# Trabalho Desenvolvimento Web 3
 
 ## Resumo
+Essa aplicação foi desenvolvida para a disciplina de Desenvolvimento Web 3 no Instituto Federal Catarinense - Campus Concórdia.
 A aplicação possui um endpoint que faz a consulta de filmes e séries por meio da API pública OMDb e do banco de dados PostgreSQl. O método GET é utilizado para fazer a busca por id ou título e a aplicação verifica se o valor correspondente existe na tabela respectiva, se não existir, uma requisição é feita a API OMDb para obter e armazenar as informações.
 
 ## Inicializar API
